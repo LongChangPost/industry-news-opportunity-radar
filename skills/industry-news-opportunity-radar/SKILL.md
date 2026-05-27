@@ -22,7 +22,7 @@ Use this skill to create a client-specific opportunity radar. Do not search firs
 
 Every item must include a concrete consulting judgement. Do not use generic trend language. The judgement must mention at least one specific entity, project type, payer, executor, regulator, or next observable event from the item.
 
-Respect explicit user output limits. If the user says "每天一条", "top 1", or "only one", set `top_n` to 1 and output exactly one lead unless there are no qualified new leads. If the channel is chat or Telegram, paste the rendered brief body in the chat; do not only report validation status or a file path.
+Separate report frequency from item count. If the user says "每天一条日报", "每天一份报告", or "每天一个报告", that means one report per day, not one lead. Use the explicit brief length/top N for item count. If the user says "每天10条", "top10", or "top 10", set `top_n` to 10 and output up to 10 leads. If the channel is chat or Telegram, paste the rendered brief body in the chat; do not only report validation status or a file path.
 
 Required analysis fields for each lead:
 

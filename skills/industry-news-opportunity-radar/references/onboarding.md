@@ -13,7 +13,7 @@ Ask in this order and accept short answers:
 5. Risk limits: external outreach allowed or internal observation only? no advance payment? no license/compliance-heavy areas?
 6. Frequency: daily, weekly, monthly, or flash?
 7. Channel: local file, Telegram, Notion, email, or copy-ready text?
-8. Brief length: top 3, 5, 6, or all?
+8. Brief length: top 3, 5, 6, 10, or all? Treat this as items per report, not report frequency.
 9. Dedupe: default yes; only push new items unless the client says otherwise.
 10. Freshness window: default 7 days for daily/weekly radar, 30 days for monthly radar.
 
@@ -28,7 +28,7 @@ Use this single message:
 5. 风险边界：
 6. 输出频率：
 7. 输出渠道：
-8. 每期条数：
+8. 每期条数：例如 top 3 / top 5 / top 10 / 全量。这是每份报告里的线索数，不是每天几份报告。
 9. 是否查重：
 10. 信息时间窗口：
 ```

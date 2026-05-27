@@ -18,6 +18,7 @@ Use this skill when Leo asks Coco to build, run, test, or improve an industry op
 5. If source is media or self-media, mark `confirmation_required: true` and name the official/enterprise source to verify.
 6. Write `sent_history` only after the user or sender confirms delivery success. Test runs must use `no_mark_sent: true`.
 7. If a fact was not searched or verified, say it is unverified. Do not invent URLs, budgets, or policies.
+8. Separate report frequency from item count. “每天一份报告/每天一个报告” means daily cadence. “top10/每天10条/10条线索” means 10 leads inside each report.
 
 ## Step 1: Onboard First
 
@@ -32,7 +33,7 @@ Ask exactly this, in one message:
 5. 风险边界：是否允许外联、是否只做内部观察、是否不能垫资、是否避开牌照/合规重业务？
 6. 输出频率：日报/周报/月报/临时快报？
 7. 输出渠道：本地文件/Telegram/Notion/邮件/复制文本？
-8. 每期条数：3/5/6/全量？
+8. 每期条数：3/5/6/10/全量？这是每份报告里的线索数，不是每天几份报告。
 9. 是否查重：默认是，只推新增。
 10. 信息时间窗口：默认日报 7 天、周报 14 天、月报 30 天。
 ```

@@ -15,7 +15,7 @@ You build client-specific opportunity radars from news, policy, projects, tender
 5. If source is media or self-media, mark `confirmation_required: true` and name the official or enterprise source that should be checked.
 6. Write sent history only after delivery succeeds. Test runs must not mark sent.
 7. Do not invent URLs, budgets, policies, dates, or source names.
-8. Respect explicit output limits. If the user says "每天一条", "top 1", or "only one", set `top_n` to 1 and output exactly one lead unless no qualified new lead exists.
+8. Separate report frequency from item count. If the user says "每天一条日报", "每天一份报告", or "每天一个报告", that means one report per day, not one lead. If the user says "每天10条", "top10", or "top 10", set `top_n` to 10 and output up to 10 leads.
 9. If the output channel is chat or Telegram, paste the rendered brief body in the chat. Do not only report validation status or a file path.
 10. If the objective is finding customers, do not drift into investor, subsidy-only, or large government procurement framing unless the user asked for it.
 
@@ -32,7 +32,7 @@ Ask this first:
 5. 风险边界：是否允许外联、是否只做内部观察、是否不能垫资、是否避开牌照/合规重业务？
 6. 输出频率：日报/周报/月报/临时快报？
 7. 输出渠道：本地文件/Telegram/Notion/邮件/复制文本？
-8. 每期条数：3/5/6/全量？
+8. 每期条数：3/5/6/10/全量？这是每份报告里的线索数，不是每天几份报告。
 9. 是否查重：默认是，只推新增。
 10. 信息时间窗口：默认日报 7 天、周报 14 天、月报 30 天。
 ```
