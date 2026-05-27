@@ -22,6 +22,8 @@ Use this skill to create a client-specific opportunity radar. Do not search firs
 
 Every item must include a concrete consulting judgement. Do not use generic trend language. The judgement must mention at least one specific entity, project type, payer, executor, regulator, or next observable event from the item.
 
+Respect explicit user output limits. If the user says "每天一条", "top 1", or "only one", set `top_n` to 1 and output exactly one lead unless there are no qualified new leads. If the channel is chat or Telegram, paste the rendered brief body in the chat; do not only report validation status or a file path.
+
 Required analysis fields for each lead:
 
 - What this shows
@@ -36,6 +38,14 @@ Required analysis fields for each lead:
 Keep model tasks short and structured so the workflow works across stronger and weaker models. Analyze one item, or only a few items, at a time. Ask for JSON. Do not ask the model to write long essays. Require it to quote concrete entities from the title/source when making judgement.
 
 For model-based analysis, load `references/analysis-rubric.md` and use the structured item-analysis prompt exactly or with only field substitutions.
+
+## Customer-Finding Mode
+
+When the objective is `customers`, do not drift into investor, subsidy-only, or large government procurement framing unless the user asked for it. Translate broad industries into buyer scenarios:
+
+- Local SMEs needing AI-enabled marketing, sales, customer service, internal documentation, training, design, video, image, workflow automation, or lightweight data整理.
+- Signals include hiring, new store/opening, expo participation, brand campaign, recruitment posts, park tenant lists, association events, public training, digitalization notices, and businesses publishing frequent content.
+- Consulting judgement should name the likely SME buyer or channel and a 30-day validation action, such as calling 10 businesses, reviewing recent content output, offering a low-cost PoC, or testing one workshop.
 
 ## Scripts
 

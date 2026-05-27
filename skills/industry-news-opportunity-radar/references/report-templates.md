@@ -2,6 +2,8 @@
 
 Briefs keep only useful signal. Do not include usage instructions.
 
+If output channel is chat, Telegram, Slack, Discord, email body, or any conversation interface, paste the rendered brief itself. Do not only say a file was generated. If the user requested one item, output exactly one numbered item.
+
 ## Daily
 
 ```markdown
