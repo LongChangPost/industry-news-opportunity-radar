@@ -2,6 +2,20 @@
 
 Universal Agent Skill for building client-specific news, policy, project, tender, park, competitor, and industry opportunity radars.
 
+## One-Line Install
+
+Give this link to any agent and say: install the skill at this address.
+
+```text
+https://github.com/LongChangPost/industry-news-opportunity-radar/tree/main/skills/industry-news-opportunity-radar
+```
+
+For agents that cannot install folders, give the single-file prompt instead:
+
+```text
+https://github.com/LongChangPost/industry-news-opportunity-radar/blob/main/dist/industry-news-opportunity-radar.universal.md
+```
+
 The canonical skill is:
 
 ```text
