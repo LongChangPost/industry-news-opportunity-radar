@@ -1,0 +1,304 @@
+{
+  "queries": [
+    {
+      "source_type": "government",
+      "objective": "projects",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 项目 (site:gov.cn OR 公共资源交易)",
+      "freshness_days": 7,
+      "priority": 1,
+      "primary_source_required": true
+    },
+    {
+      "source_type": "enterprise",
+      "objective": "projects",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 项目合作 官网",
+      "freshness_days": 7,
+      "priority": 2,
+      "primary_source_required": true
+    },
+    {
+      "source_type": "media",
+      "objective": "projects",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 项目 新闻",
+      "freshness_days": 7,
+      "priority": 3,
+      "primary_source_required": false
+    },
+    {
+      "source_type": "park_association",
+      "objective": "projects",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 招商 园区",
+      "freshness_days": 7,
+      "priority": 3,
+      "primary_source_required": true
+    },
+    {
+      "source_type": "self_media",
+      "objective": "projects",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 项目 低权重参考",
+      "freshness_days": 7,
+      "priority": 3,
+      "primary_source_required": false
+    },
+    {
+      "source_type": "government",
+      "objective": "projects",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 开工 (site:gov.cn OR 公共资源交易)",
+      "freshness_days": 7,
+      "priority": 1,
+      "primary_source_required": true
+    },
+    {
+      "source_type": "enterprise",
+      "objective": "projects",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 合同 官网",
+      "freshness_days": 7,
+      "priority": 2,
+      "primary_source_required": true
+    },
+    {
+      "source_type": "media",
+      "objective": "projects",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 签约 新闻",
+      "freshness_days": 7,
+      "priority": 3,
+      "primary_source_required": false
+    },
+    {
+      "source_type": "park_association",
+      "objective": "projects",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 签约 园区",
+      "freshness_days": 7,
+      "priority": 3,
+      "primary_source_required": true
+    },
+    {
+      "source_type": "self_media",
+      "objective": "projects",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 动向 低权重参考",
+      "freshness_days": 7,
+      "priority": 3,
+      "primary_source_required": false
+    },
+    {
+      "source_type": "government",
+      "objective": "projects",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 签约 (site:gov.cn OR 公共资源交易)",
+      "freshness_days": 7,
+      "priority": 1,
+      "primary_source_required": true
+    },
+    {
+      "source_type": "enterprise",
+      "objective": "projects",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 中标 官网",
+      "freshness_days": 7,
+      "priority": 2,
+      "primary_source_required": true
+    },
+    {
+      "source_type": "media",
+      "objective": "projects",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 开工 新闻",
+      "freshness_days": 7,
+      "priority": 3,
+      "primary_source_required": false
+    },
+    {
+      "source_type": "park_association",
+      "objective": "projects",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 项目落地 园区",
+      "freshness_days": 7,
+      "priority": 3,
+      "primary_source_required": true
+    },
+    {
+      "source_type": "self_media",
+      "objective": "policies",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 政策 低权重参考",
+      "freshness_days": 7,
+      "priority": 3,
+      "primary_source_required": false
+    },
+    {
+      "source_type": "government",
+      "objective": "policies",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 政策 (site:gov.cn OR 公共资源交易)",
+      "freshness_days": 7,
+      "priority": 1,
+      "primary_source_required": true
+    },
+    {
+      "source_type": "enterprise",
+      "objective": "policies",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 入选 官网",
+      "freshness_days": 7,
+      "priority": 2,
+      "primary_source_required": true
+    },
+    {
+      "source_type": "media",
+      "objective": "policies",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 政策 新闻",
+      "freshness_days": 7,
+      "priority": 3,
+      "primary_source_required": false
+    },
+    {
+      "source_type": "park_association",
+      "objective": "policies",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 申报 园区",
+      "freshness_days": 7,
+      "priority": 3,
+      "primary_source_required": true
+    },
+    {
+      "source_type": "self_media",
+      "objective": "policies",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 名单 低权重参考",
+      "freshness_days": 7,
+      "priority": 3,
+      "primary_source_required": false
+    },
+    {
+      "source_type": "government",
+      "objective": "policies",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 申报 (site:gov.cn OR 公共资源交易)",
+      "freshness_days": 7,
+      "priority": 1,
+      "primary_source_required": true
+    },
+    {
+      "source_type": "enterprise",
+      "objective": "policies",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 试点 官网",
+      "freshness_days": 7,
+      "priority": 2,
+      "primary_source_required": true
+    },
+    {
+      "source_type": "media",
+      "objective": "policies",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 试点 新闻",
+      "freshness_days": 7,
+      "priority": 3,
+      "primary_source_required": false
+    },
+    {
+      "source_type": "park_association",
+      "objective": "policies",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 政策 园区",
+      "freshness_days": 7,
+      "priority": 3,
+      "primary_source_required": true
+    },
+    {
+      "source_type": "self_media",
+      "objective": "technical_cooperation",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 合作 低权重参考",
+      "freshness_days": 7,
+      "priority": 3,
+      "primary_source_required": false
+    },
+    {
+      "source_type": "government",
+      "objective": "policies",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 补贴 (site:gov.cn OR 公共资源交易)",
+      "freshness_days": 7,
+      "priority": 1,
+      "primary_source_required": true
+    },
+    {
+      "source_type": "enterprise",
+      "objective": "policies",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 补贴 官网",
+      "freshness_days": 7,
+      "priority": 2,
+      "primary_source_required": true
+    },
+    {
+      "source_type": "media",
+      "objective": "policies",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 名单 新闻",
+      "freshness_days": 7,
+      "priority": 3,
+      "primary_source_required": false
+    },
+    {
+      "source_type": "park_association",
+      "objective": "policies",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 奖励 园区",
+      "freshness_days": 7,
+      "priority": 3,
+      "primary_source_required": true
+    },
+    {
+      "source_type": "self_media",
+      "objective": "technical_cooperation",
+      "region": "江苏",
+      "industry": "低空经济",
+      "query": "江苏 低空经济 场景 低权重参考",
+      "freshness_days": 7,
+      "priority": 3,
+      "primary_source_required": false
+    }
+  ]
+}

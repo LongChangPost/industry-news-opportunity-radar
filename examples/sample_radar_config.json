@@ -1,0 +1,247 @@
+{
+  "client": {
+    "name": "示例客户",
+    "type": "enterprise",
+    "profile": "企业销售团队，做园区数字化和项目资料服务"
+  },
+  "regions": {
+    "primary": [
+      "江苏",
+      "浙江"
+    ],
+    "secondary": [],
+    "excluded": [],
+    "overseas": false
+  },
+  "industries": {
+    "primary": [
+      "低空经济",
+      "智能制造"
+    ],
+    "upstream_downstream": [
+      "园区数字化",
+      "工程资料管理"
+    ],
+    "paused": [
+      "重资产设备投资"
+    ],
+    "excluded": [
+      "金融牌照业务"
+    ]
+  },
+  "objectives": [
+    "projects",
+    "policies",
+    "technical_cooperation",
+    "tenders"
+  ],
+  "risk_limits": {
+    "outreach_allowed": false,
+    "internal_observation_only": true,
+    "no_advance_payment": true,
+    "avoid_license_or_compliance_heavy": true,
+    "notes": [
+      "只做内部观察",
+      "不垫资",
+      "不碰牌照或重合规业务",
+      "外联需二次确认"
+    ]
+  },
+  "output": {
+    "frequency": "daily",
+    "channels": [
+      "local_file"
+    ],
+    "top_n": 3,
+    "language": "zh-CN"
+  },
+  "dedupe": {
+    "enabled": true,
+    "only_new": true,
+    "history_path": "sent_history.json"
+  },
+  "collection": {
+    "freshness_days": 7,
+    "primary_source_required_for_a_grade": true,
+    "cross_check_media_items": true,
+    "query_budget_per_run": 30
+  },
+  "sources": [
+    {
+      "name": "政府官网/主管部门/公共资源交易",
+      "type": "government",
+      "priority": 1,
+      "base_url": "",
+      "query_keywords": [
+        "江苏",
+        "浙江",
+        "低空经济",
+        "智能制造",
+        "园区数字化",
+        "工程资料管理",
+        "项目",
+        "开工",
+        "签约",
+        "政策",
+        "申报",
+        "补贴",
+        "技术合作",
+        "揭榜挂帅",
+        "试点",
+        "招标",
+        "采购",
+        "中标",
+        "发改",
+        "工信",
+        "商务",
+        "自然资源",
+        "公共资源交易"
+      ]
+    },
+    {
+      "name": "企业官网/上市公司公告",
+      "type": "enterprise",
+      "priority": 2,
+      "base_url": "",
+      "query_keywords": [
+        "江苏",
+        "浙江",
+        "低空经济",
+        "智能制造",
+        "园区数字化",
+        "工程资料管理",
+        "项目",
+        "开工",
+        "签约",
+        "政策",
+        "申报",
+        "补贴",
+        "技术合作",
+        "揭榜挂帅",
+        "试点",
+        "招标",
+        "采购",
+        "中标",
+        "公告",
+        "投资者关系",
+        "项目合作"
+      ]
+    },
+    {
+      "name": "园区/投促/行业协会",
+      "type": "park_association",
+      "priority": 3,
+      "base_url": "",
+      "query_keywords": [
+        "江苏",
+        "浙江",
+        "低空经济",
+        "智能制造",
+        "园区数字化",
+        "工程资料管理",
+        "项目",
+        "开工",
+        "签约",
+        "政策",
+        "申报",
+        "补贴",
+        "技术合作",
+        "揭榜挂帅",
+        "试点",
+        "招标",
+        "采购",
+        "中标",
+        "园区",
+        "招商",
+        "协会",
+        "供需"
+      ]
+    },
+    {
+      "name": "主流媒体",
+      "type": "media",
+      "priority": 4,
+      "base_url": "",
+      "query_keywords": [
+        "江苏",
+        "浙江",
+        "低空经济",
+        "智能制造",
+        "园区数字化",
+        "工程资料管理",
+        "项目",
+        "开工",
+        "签约",
+        "政策",
+        "申报",
+        "补贴",
+        "技术合作",
+        "揭榜挂帅",
+        "试点",
+        "招标",
+        "采购",
+        "中标"
+      ]
+    },
+    {
+      "name": "自媒体低权重线索",
+      "type": "self_media",
+      "priority": 5,
+      "base_url": "",
+      "query_keywords": [
+        "江苏",
+        "浙江",
+        "低空经济",
+        "智能制造",
+        "园区数字化",
+        "工程资料管理",
+        "项目",
+        "开工",
+        "签约",
+        "政策",
+        "申报",
+        "补贴",
+        "技术合作",
+        "揭榜挂帅",
+        "试点",
+        "招标",
+        "采购",
+        "中标"
+      ]
+    }
+  ],
+  "query_sets": [
+    {
+      "name": "核心机会",
+      "keywords": [
+        "江苏",
+        "浙江",
+        "低空经济",
+        "智能制造",
+        "园区数字化",
+        "工程资料管理",
+        "项目",
+        "开工",
+        "签约",
+        "政策",
+        "申报",
+        "补贴",
+        "技术合作",
+        "揭榜挂帅",
+        "试点",
+        "招标",
+        "采购",
+        "中标"
+      ],
+      "regions": [
+        "江苏",
+        "浙江"
+      ],
+      "source_types": [
+        "government",
+        "enterprise",
+        "park_association"
+      ]
+    }
+  ]
+}

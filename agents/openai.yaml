@@ -1,0 +1,7 @@
+interface:
+  display_name: "Industry Opportunity Radar"
+  short_description: "行业新闻政策项目机会雷达工作流"
+  default_prompt: "Use $industry-news-opportunity-radar to onboard a client and build an opportunity radar brief."
+
+policy:
+  allow_implicit_invocation: true

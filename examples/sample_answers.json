@@ -1,0 +1,16 @@
+{
+  "client": "企业销售团队，做园区数字化和项目资料服务",
+  "client_name": "示例客户",
+  "regions": ["江苏", "浙江"],
+  "primary_industries": ["低空经济", "智能制造"],
+  "upstream_downstream": ["园区数字化", "工程资料管理"],
+  "paused_industries": ["重资产设备投资"],
+  "excluded_industries": ["金融牌照业务"],
+  "objectives": ["找项目", "找政策", "招投标", "技术合作"],
+  "risk_limits": "只做内部观察，不垫资，不碰牌照或重合规业务，外联需二次确认",
+  "frequency": "daily",
+  "channels": ["local_file"],
+  "top_n": 3,
+  "freshness_days": 7,
+  "dedupe": "是"
+}

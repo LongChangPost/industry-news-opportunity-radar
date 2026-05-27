@@ -1,0 +1,55 @@
+{
+  "items": [
+    {
+      "title": "苏州市低空经济示范区无人机起降点建设项目招标公告",
+      "source": "苏州市公共资源交易中心",
+      "source_type": "government",
+      "url": "https://example.gov.cn/suzhou-low-altitude-tender",
+      "published_at": "2026-05-26",
+      "region": "江苏",
+      "industry": "低空经济",
+      "topic": "招投标",
+      "summary": "项目建设内容包括起降点、配套管理系统和验收资料，采购人是示范区建设管理中心。",
+      "entities": ["苏州市公共资源交易中心", "示范区建设管理中心"],
+      "buyer": "示范区建设管理中心",
+      "project_name": "苏州市低空经济示范区无人机起降点建设项目",
+      "lifecycle_project_id": "suzhou-low-altitude-pad"
+    },
+    {
+      "title": "浙江省经信厅发布智能制造试点示范申报通知",
+      "source": "浙江省经济和信息化厅",
+      "source_type": "government",
+      "url": "https://example.gov.cn/zhejiang-smart-manufacturing-policy",
+      "published_at": "2026-05-25",
+      "region": "浙江",
+      "industry": "智能制造",
+      "topic": "政策申报",
+      "summary": "通知要求企业提交数字化改造场景、项目投资证明和验收材料。",
+      "entities": ["浙江省经济和信息化厅"]
+    },
+    {
+      "title": "某产业园发布低空物流技术合作需求征集",
+      "source": "杭州某产业园投资促进中心",
+      "source_type": "park_association",
+      "url": "https://example.com/hangzhou-park-low-altitude-cooperation",
+      "published_at": "2026-05-24",
+      "region": "浙江",
+      "industry": "低空经济",
+      "topic": "技术合作",
+      "summary": "园区面向企业征集低空物流试点场景，要求提供合规资料和 PoC 方案。",
+      "entities": ["杭州某产业园投资促进中心"]
+    },
+    {
+      "title": "网传华东某园区将上马大型机器人项目",
+      "source": "行业自媒体",
+      "source_type": "self_media",
+      "url": "https://example.com/self-media-rumor",
+      "published_at": "2026-05-23",
+      "region": "华东",
+      "industry": "智能制造",
+      "topic": "传闻",
+      "summary": "文章未给出项目业主、预算或公告来源。",
+      "entities": ["华东某园区"]
+    }
+  ]
+}
