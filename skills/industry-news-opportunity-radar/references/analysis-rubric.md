@@ -47,9 +47,9 @@ Grade:
 
 Do not over-score an item just because it is recent. Recency only matters after source quality, payer clarity, and next validation event are present.
 
-## MiniMax Prompt
+## Small-Model Prompt
 
-Use this prompt for one item at a time. Require JSON only.
+Use this prompt for one item at a time. It is intentionally compatible with smaller models such as MiniMax. Require JSON only.
 
 ```text
 你是行业机会雷达分析员。只分析 1 条线索。不要写长文。不要输出操作说明。

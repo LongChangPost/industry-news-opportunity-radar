@@ -1,6 +1,6 @@
 ---
 name: industry-news-opportunity-radar
-description: Build reusable industry opportunity radars for news, policy, projects, tenders, investment promotion, competitor movement, park development, and customer market briefs. Use when Codex needs to onboard a client, create radar_config.json, define sources, dedupe leads, score opportunities, and produce daily, weekly, monthly, or flash briefs with concrete consulting judgement across any industry or region.
+description: Build reusable industry opportunity radars for news, policy, projects, tenders, investment promotion, competitor movement, park development, and customer market briefs. Use when an AI agent needs to onboard a client, create radar_config.json, define sources, dedupe leads, score opportunities, and produce daily, weekly, monthly, or flash briefs with concrete consulting judgement across any industry or region.
 ---
 
 # Industry News Opportunity Radar
@@ -31,11 +31,11 @@ Required analysis fields for each lead:
 - What not to do yet
 - Consulting judgement
 
-## MiniMax-Safe Use
+## Small-Model-Safe Use
 
-Keep model tasks short and structured. Analyze one item, or only a few items, at a time. Ask for JSON. Do not ask the model to write long essays. Require it to quote concrete entities from the title/source when making judgement.
+Keep model tasks short and structured so the workflow works across stronger and weaker models. Analyze one item, or only a few items, at a time. Ask for JSON. Do not ask the model to write long essays. Require it to quote concrete entities from the title/source when making judgement.
 
-For model-based analysis, load `references/analysis-rubric.md` and use the MiniMax prompt exactly or with only field substitutions.
+For model-based analysis, load `references/analysis-rubric.md` and use the structured item-analysis prompt exactly or with only field substitutions.
 
 ## Scripts
 
@@ -52,5 +52,5 @@ Use `--mark-sent --history sent_history.json` only after the target channel conf
 
 - `references/onboarding.md`: first conversation, client follow-ups, config schema.
 - `references/source-policy.md`: source priority, dedupe, lifecycle merge, sent history rule.
-- `references/analysis-rubric.md`: scoring and MiniMax-safe JSON analysis prompt.
+- `references/analysis-rubric.md`: scoring and small-model-safe JSON analysis prompt.
 - `references/report-templates.md`: daily, weekly, monthly, and flash brief formats.
