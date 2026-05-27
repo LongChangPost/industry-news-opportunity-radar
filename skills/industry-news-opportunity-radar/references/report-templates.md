@@ -4,6 +4,8 @@ Briefs keep only useful signal. Do not include usage instructions.
 
 If output channel is chat, Telegram, Slack, Discord, email body, or any conversation interface, paste the rendered brief itself. Do not only say a file was generated. Interpret "daily report" as report cadence. Interpret "top N" or "N 条" as the number of leads inside each report.
 
+For real reports, every item link must be a live original source or a clearly marked `待核验` field. Never use plausible placeholder URLs. For offline tests, add `离线测试样例，非真实线索` before the brief.
+
 ## Daily
 
 ```markdown

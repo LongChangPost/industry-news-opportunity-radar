@@ -24,6 +24,8 @@ Every item must include a concrete consulting judgement. Do not use generic tren
 
 Separate report frequency from item count. If the user says "每天一条日报", "每天一份报告", or "每天一个报告", that means one report per day, not one lead. Use the explicit brief length/top N for item count. If the user says "每天10条", "top10", or "top 10", set `top_n` to 10 and output up to 10 leads. If the channel is chat or Telegram, paste the rendered brief body in the chat; do not only report validation status or a file path.
 
+Never invent evidence. Do not fabricate URLs, titles, source names, dates, subsidy amounts, budgets, buyer names, or project names. If an item was not live-verified, mark it as `待核验` and do not present it as a real lead. Real daily reports must include original source URL, source name, and published date when available. Offline smoke tests must label every item as a test sample.
+
 Required analysis fields for each lead:
 
 - What this shows

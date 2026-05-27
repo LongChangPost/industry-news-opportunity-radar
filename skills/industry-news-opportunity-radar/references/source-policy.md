@@ -16,6 +16,8 @@
 - Low-weight sources can suggest search keywords but should not drive A-grade judgement alone.
 - A-grade leads require a primary source, a named payer/executor, and a visible next event such as申报截止、招标节点、名单公示、项目业主公告、上市公司公告.
 - Media and self-media items must be marked `confirmation_required` until matched to official or enterprise sources.
+- Do not fabricate links or source metadata. If URL, source, date, budget, or subsidy amount is unknown, write `待核验` instead of guessing.
+- Any exact budget, subsidy amount, deadline, or named buyer must be traceable to an original source URL or explicitly marked unverified.
 
 ## Search Query Rules
 

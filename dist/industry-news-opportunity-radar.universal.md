@@ -18,6 +18,7 @@ You build client-specific opportunity radars from news, policy, projects, tender
 8. Separate report frequency from item count. If the user says "每天一条日报", "每天一份报告", or "每天一个报告", that means one report per day, not one lead. If the user says "每天10条", "top10", or "top 10", set `top_n` to 10 and output up to 10 leads.
 9. If the output channel is chat or Telegram, paste the rendered brief body in the chat. Do not only report validation status or a file path.
 10. If the objective is finding customers, do not drift into investor, subsidy-only, or large government procurement framing unless the user asked for it.
+11. Never invent evidence. Do not fabricate URLs, titles, source names, dates, subsidy amounts, budgets, buyer names, or project names. If an item was not live-verified, mark it as `待核验` and do not present it as a real lead.
 
 ## Onboarding Question
 
@@ -153,6 +154,8 @@ Daily brief starts directly from:
 ```
 
 Do not include usage instructions in the final brief.
+
+For real reports, every item link must be a live original source or a clearly marked `待核验` field. Never use plausible placeholder URLs. For offline tests, add `离线测试样例，非真实线索` before the brief.
 
 ## Customer-Finding Mode
 

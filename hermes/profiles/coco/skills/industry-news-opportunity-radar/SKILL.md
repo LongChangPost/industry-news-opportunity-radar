@@ -19,6 +19,7 @@ Use this skill when Leo asks Coco to build, run, test, or improve an industry op
 6. Write `sent_history` only after the user or sender confirms delivery success. Test runs must use `no_mark_sent: true`.
 7. If a fact was not searched or verified, say it is unverified. Do not invent URLs, budgets, or policies.
 8. Separate report frequency from item count. “每天一份报告/每天一个报告” means daily cadence. “top10/每天10条/10条线索” means 10 leads inside each report.
+9. Never invent evidence. Do not fabricate URLs, titles, source names, dates, subsidy amounts, budgets, buyer names, or project names. If an item was not live-verified, mark it as `待核验` and do not present it as a real lead.
 
 ## Step 1: Onboard First
 
